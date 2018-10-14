@@ -33,7 +33,7 @@
 		"flarum/subscriptions": "Description",
 		"flarum/tags": "Description"
 	},
-		"adder": {
+		{
     "minimum-stability": "dev",
     "prefer-stable": true
     },
