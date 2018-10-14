@@ -20,21 +20,18 @@
 			"role": "CEO"
 		}
 	],
-	"support": {
-		"email": "axamongolia@gmail.com",
-	},
 	"require": {
 		"flarum/core": "^0.1.0-beta.8"
 	},
 	"suggest": {
-		"flarum/flags" ,
-		"flarum/likes",
-		"flarum/lock",
-		"flarum/mentions",
-		"flarum/pusher",
-		"flarum/sticky",
-		"flarum/subscriptions",
-		"flarum/tags"
+		"flarum/flags": "Description" ,
+		"flarum/likes": "Description",
+		"flarum/lock": "Description",
+		"flarum/mentions": "Description",
+		"flarum/pusher": "Description",
+		"flarum/sticky": "Description",
+		"flarum/subscriptions": "Description",
+		"flarum/tags": "Description"
 	},
 	"extra": {
 		"branch-alias": {
