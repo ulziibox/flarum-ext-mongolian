@@ -1,0 +1,57 @@
+{
+	"name": "ulziibox/flarum-ext-mongolian",
+	"type": "flarum-extension",
+	"description": "Mongolian language pack for Flarum.",
+	"license": "GPL-3.0-or-later",
+	"homepage": "https://axa.mn",
+	"keywords": [
+		"flarum",
+		"mongolian",
+		"language",
+		"locale",
+		"localization",
+		"translation"
+	],
+	"authors": [
+		{
+			"name": "Bat-Ulzii Batbayar",
+			"email": "ulziibox@gmail.com",
+			"homepage": "https://axa.mn/u/ulzii",
+			"role": "CEO"
+		}
+	],
+	"support": {
+		"email": "axamongolia@gmail.com",
+	},
+	"require": {
+		"flarum/core": "^0.1.0-beta.8"
+	},
+	"suggest": {
+		"flarum/flags" ,
+		"flarum/likes",
+		"flarum/lock",
+		"flarum/mentions",
+		"flarum/pusher",
+		"flarum/sticky",
+		"flarum/subscriptions",
+		"flarum/tags"
+	},
+	"extra": {
+		"branch-alias": {
+			"dev-master": "0.1.x-dev"
+		},
+		"flarum-extension": {
+			"title": "Mongolian",
+			"icon": {
+				"image": "icon.svg",
+				"backgroundColor": "#ffffff",
+				"backgroundSize": "cover",
+				"backgroundPosition": "center"
+			}
+		},
+		"flarum-locale": {
+			"code": "mn",
+			"title": "Mongolian"
+		}
+	}
+}
