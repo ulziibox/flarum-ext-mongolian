@@ -1,5 +1,5 @@
 {
-	"name": "metastore/flarum-ext-russian",
+	"name": "ulziibox/flarum-ext-mongolian",
 	"type": "flarum-extension",
 	"description": "Russian language pack for Flarum.",
 	"license": "GPL-3.0-or-later",
@@ -28,7 +28,7 @@
 		"source": "https://gitlab.com/metastore/flarum/flarum-l10n-forum"
 	},
 	"require": {
-		"flarum/core: ^0.1.0-beta.7"
+		"flarum/core: ^0.1.0-beta.8"
 	},
 	"suggest": {
 		"flarum/flags": "Разрешает пользователям отмечать сообщения для рассмотрения модератором.",
@@ -42,10 +42,10 @@
 	},
 	"extra": {
 		"branch-alias": {
-			"dev-master": "0.1.x-dev"
+			"flarum/core: ^0.1.0-beta.7"
 		},
 		"flarum-extension": {
-			"title": "Русский",
+			"title": "Mongolian",
 			"icon": {
 				"image": "icon.svg",
 				"backgroundColor": "#ffffff",
@@ -54,8 +54,8 @@
 			}
 		},
 		"flarum-locale": {
-			"code": "ru",
-			"title": "Русский"
+			"code": "mn",
+			"title": "Mongolian"
 		}
 	}
 }
