@@ -28,7 +28,7 @@
 		"source": "https://gitlab.com/metastore/flarum/flarum-l10n-forum"
 	},
 	"require": {
-		"flarum/core": "^0.1.0-beta.8"
+		"flarum/core: ^0.1.0-beta.7"
 	},
 	"suggest": {
 		"flarum/flags": "Разрешает пользователям отмечать сообщения для рассмотрения модератором.",
