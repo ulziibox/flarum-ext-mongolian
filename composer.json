@@ -1,5 +1,5 @@
 {
-	"name": "ulziibox/flarum-ext-mongolian",
+	"name": "metastore/flarum-ext-russian",
 	"type": "flarum-extension",
 	"description": "Russian language pack for Flarum.",
 	"license": "GPL-3.0-or-later",
@@ -54,7 +54,7 @@
 			}
 		},
 		"flarum-locale": {
-			"code": "mn",
+			"code": "ru",
 			"title": "Русский"
 		}
 	}
