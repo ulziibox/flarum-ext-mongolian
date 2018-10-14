@@ -42,7 +42,7 @@
 	},
 	"extra": {
 		"branch-alias": {
-			"flarum/core: ^0.1.0-beta.7"
+			"dev-flarum-0.1.0-beta.8"
 		},
 		"flarum-extension": {
 			"title": "Mongolian",
