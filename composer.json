@@ -1,12 +1,12 @@
 {
 	"name": "ulziibox/flarum-ext-mongolian",
 	"type": "flarum-extension",
-	"description": "Mongolian language pack for Flarum.",
+	"description": "Russian language pack for Flarum.",
 	"license": "GPL-3.0-or-later",
-	"homepage": "https://axa.mn",
+	"homepage": "https://metastore.pro/",
 	"keywords": [
 		"flarum",
-		"mongolian",
+		"russian",
 		"language",
 		"locale",
 		"localization",
@@ -14,32 +14,38 @@
 	],
 	"authors": [
 		{
-			"name": "Bat-Ulzii Batbayar",
-			"email": "ulziibox@gmail.com",
-			"homepage": "https://axa.mn/u/ulzii",
-			"role": "CEO"
+			"name": "Kitsune Solar",
+			"email": "kitsune.solar@gmail.com",
+			"homepage": "https://kitsune.solar/",
+			"role": "Developer"
 		}
 	],
+	"support": {
+		"email": "support@metastore.pro",
+		"issues": "https://gitlab.com/metastore/flarum/flarum-l10n-forum/issues",
+		"forum": "https://webmasters.community/",
+		"wiki": "https://flarum.help/",
+		"source": "https://gitlab.com/metastore/flarum/flarum-l10n-forum"
+	},
 	"require": {
-		"flarum/core": "^0.1"
+		"flarum/core": "^0.1.0-beta.8"
 	},
 	"suggest": {
-		"flarum/flags": "Description" ,
-		"flarum/likes": "Description",
-		"flarum/lock": "Description",
-		"flarum/mentions": "Description",
-		"flarum/pusher": "Description",
-		"flarum/sticky": "Description",
-		"flarum/subscriptions": "Description",
-		"flarum/tags": "Description"
+		"flarum/flags": "Разрешает пользователям отмечать сообщения для рассмотрения модератором.",
+		"flarum/likes": "Разрешает пользователям отмечать понравившиеся сообщения.",
+		"flarum/lock": "Закрывает дискуссии и не позволяет добавлять новые сообщения.",
+		"flarum/mentions": "Упоминания и ответы отдельным пользователям.",
+		"flarum/pusher": "Смотреть новые дискуссии и сообщения в режиме реального времени, используя Pusher.",
+		"flarum/sticky": "Прикрепление дискуссий в списке.",
+		"flarum/subscriptions": "Разрешает пользователям наблюдать за дискуссиями и получать уведомления о новых сообщениях.",
+		"flarum/tags": "Структурирование дискуссий по иерархии тегов и категорий."
 	},
-"minimum-stability": "stable",
 	"extra": {
 		"branch-alias": {
 			"dev-master": "0.1.x-dev"
 		},
 		"flarum-extension": {
-			"title": "Mongolian",
+			"title": "Русский",
 			"icon": {
 				"image": "icon.svg",
 				"backgroundColor": "#ffffff",
@@ -49,7 +55,7 @@
 		},
 		"flarum-locale": {
 			"code": "mn",
-			"title": "Mongolian"
+			"title": "Русский"
 		}
 	}
 }
